@@ -2,6 +2,8 @@ import pygal
 import operator
 from pygal.style import Style
 
+# WORKING 10/2021
+
 # This file is responsible for all math calculations and graph creation
 # I rely on dictionaries and tuples in order to organize my data
 # and make it useful for data visualization
