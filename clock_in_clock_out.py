@@ -38,7 +38,7 @@ def cal_time(total1):
 # out code is shorter and looks better if all database manipulations use classes
 class Database:
     def __init__(self, db):
-        self.conn=sqlite3.connect("check in and out.db")
+        self.conn=sqlite3.connect("C:\\Users\\cooke\\Desktop\\projects\\study_copy\\check in and out.db")
         self.cur=self.conn.cursor()
         self.cur.execute("CREATE TABLE IF NOT EXISTS study "
                     "(id,"
